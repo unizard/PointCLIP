@@ -1,4 +1,5 @@
 # Dockerfile 예시
+echo "dockerfile install"
 FROM continuumio/anaconda3:2020.11  # Python 3.7 포함
 
 RUN conda create -n py37 python=3.7 -y
